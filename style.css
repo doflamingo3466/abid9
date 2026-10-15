@@ -13,9 +13,11 @@ body {
   background: #d374f0;
   color: white;
 }
-
+.navbar-brand{
+  color: goldenrod;
+}
 .navbar a:not(.navbar-brand) {
-  color: white;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -24,14 +26,14 @@ body {
   padding: 80px 0;
 }
 
-/* Bento cards */
-.bento {
+/* dot cards */
+.dot {
   padding: 28px;
   border-radius: 18px;
   height: 100%;
   min-height: 180px;
 }
-.bento:hover {
+.dot:hover {
   box-shadow: 0 10px 25px #0002;
   transform: translateY(-5px);
   transition: 0.3s;
@@ -43,10 +45,10 @@ body {
 }
 
 .light {
-  background: rgb(130, 245, 207);
+  background: rgb(203, 252, 236);
 }
 
-.bento h3 {
+.dot h3 {
   font-weight: 700;
 }
 
@@ -57,7 +59,7 @@ body {
 }
 
 .btn-green:hover {
-    background-color: chartreuse;
+  background-color: rgb(10, 10, 10);
   transform: translateY(-5px);
 }
 
