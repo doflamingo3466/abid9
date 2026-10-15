@@ -1,0 +1,67 @@
+/* General styling */
+body {
+  background: #f4f4ef;
+  color: #20251f;
+}
+
+/* Navbar */
+.navbar{
+  background: #030303;
+  color: white;
+}
+.dark {
+  background: #d374f0;
+  color: white;
+}
+
+.navbar a:not(.navbar-brand) {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+  padding: 80px 0;
+}
+
+/* Bento cards */
+.bento {
+  padding: 28px;
+  border-radius: 18px;
+  height: 100%;
+  min-height: 180px;
+}
+.bento:hover {
+  box-shadow: 0 10px 25px #0002;
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.green {
+  background: #c7f36b;
+  color: #20251f;
+}
+
+.light {
+  background: rgb(130, 245, 207);
+}
+
+.bento h3 {
+  font-weight: 700;
+}
+
+/* Contact button */
+.btn-green {
+  background: #c7f36b;
+  border: none;
+}
+
+.btn-green:hover {
+    background-color: chartreuse;
+  transform: translateY(-5px);
+}
+
+/* Section spacing */
+section {
+  padding: 55px 0;
+}
